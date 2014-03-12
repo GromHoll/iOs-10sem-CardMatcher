@@ -24,6 +24,7 @@
 		84F0AA4018D1100300003A86 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0AA3F18D1100300003A86 /* Card.m */; };
 		84F0AA4518D110C500003A86 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0AA4218D110C500003A86 /* Deck.m */; };
 		84F0AA4618D110C500003A86 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0AA4418D110C500003A86 /* PlayingCard.m */; };
+		84F0AA4A18D112EE00003A86 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0AA4918D112EE00003A86 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		84F0AA4218D110C500003A86 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		84F0AA4318D110C500003A86 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		84F0AA4418D110C500003A86 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		84F0AA4818D112EE00003A86 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		84F0AA4918D112EE00003A86 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				84F0AA4418D110C500003A86 /* PlayingCard.m */,
 				84F0AA3E18D1100300003A86 /* Card.h */,
 				84F0AA3F18D1100300003A86 /* Card.m */,
+				84F0AA4818D112EE00003A86 /* PlayingCardDeck.h */,
+				84F0AA4918D112EE00003A86 /* PlayingCardDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				84F0AA4518D110C500003A86 /* Deck.m in Sources */,
 				84F0AA2018D10E4400003A86 /* CardMatcherViewController.m in Sources */,
 				84F0AA1618D10E4400003A86 /* main.m in Sources */,
+				84F0AA4A18D112EE00003A86 /* PlayingCardDeck.m in Sources */,
 				84F0AA1A18D10E4400003A86 /* CardMatcherAppDelegate.m in Sources */,
 				84F0AA4018D1100300003A86 /* Card.m in Sources */,
 			);
