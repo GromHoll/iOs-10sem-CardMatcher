@@ -27,9 +27,19 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchDown" id="ezI-Fo-Ssp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flip counter: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hK-Ou-41e">
+                                <rect key="frame" x="20" y="527" width="165" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0013513563629812084" green="0.65338010204081631" blue="0.0020966558848814561" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0010354875303334231" green="0.50065768494897966" blue="0.0016065791997348423" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="flipLabel" destination="6hK-Ou-41e" id="84Z-eH-CNG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
