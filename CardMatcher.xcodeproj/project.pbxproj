@@ -125,8 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				84F0AA4718D110D900003A86 /* Model */,
-				84F0AA1818D10E4400003A86 /* CardMatcherAppDelegate.h */,
-				84F0AA1918D10E4400003A86 /* CardMatcherAppDelegate.m */,
 				84F0AA1B18D10E4400003A86 /* Main.storyboard */,
 				84F0AA1E18D10E4400003A86 /* CardMatcherViewController.h */,
 				84F0AA1F18D10E4400003A86 /* CardMatcherViewController.m */,
@@ -139,6 +137,8 @@
 		84F0AA1018D10E4400003A86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84F0AA1818D10E4400003A86 /* CardMatcherAppDelegate.h */,
+				84F0AA1918D10E4400003A86 /* CardMatcherAppDelegate.m */,
 				84F0AA1118D10E4400003A86 /* CardMatcher-Info.plist */,
 				84F0AA1218D10E4400003A86 /* InfoPlist.strings */,
 				84F0AA1518D10E4400003A86 /* main.m */,

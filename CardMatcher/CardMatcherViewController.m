@@ -14,16 +14,17 @@
 
 @implementation CardMatcherViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)touchCardButton:(UIButton *)sender {
+    if ([sender.currentTitle length]) {
+        UIImage * cardImage = [UIImage imageNamed:@"CardBack"];
+        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+        [sender setTitle: @"" forState:UIControlStateNormal];
+    } else {
+        UIImage * cardImage = [UIImage imageNamed:@"CardBlank"];
+        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+        [sender setTitle: @"qwe" forState:UIControlStateNormal];
+    }
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
