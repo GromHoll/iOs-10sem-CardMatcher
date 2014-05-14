@@ -27,9 +27,13 @@
         
         [self.gameBoard chooseCardAtIndex: index];
         [self updateCard: sender];
-        [self.gameBoard findMatch];
-        [self update];
-
+        [self.gameBoard findMatch];        
+        
+        [NSTimer scheduledTimerWithTimeInterval:1.0
+                 target:self
+                 selector:@selector(update)
+                 userInfo:nil
+                 repeats:NO];
     }
 
     - (void)updateScore {
